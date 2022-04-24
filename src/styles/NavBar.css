@@ -1,0 +1,36 @@
+.NavBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px dotted white;
+}
+
+.NavBar-header{
+    font-family: 'Water Brush', cursive;
+    padding: 0.2rem 0rem 0.2rem 1rem;
+    font-size: 3rem;
+    color: white;
+}
+
+.NavBar-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 500px;
+}
+
+.NavBar-list > li{
+    font-size: 1.1rem;
+    margin: 0rem 0.5rem;
+}
+
+.NavBar-list > li > a{
+    text-decoration: none;
+    color: white;
+    padding: 1.7rem 0.8rem;
+}
+
+.NavBar-list > li > a:hover{
+    background-color: brown;
+}

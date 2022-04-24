@@ -1,0 +1,41 @@
+.AboutMe{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.AboutMe-avatarC{
+    margin-left: 7rem;
+}
+
+.AboutMe-avatarC > img{
+    width: 500px;
+    height: 500px;
+}
+
+.AboutMe-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    color: white;
+}
+
+.AboutMe-name{
+    margin: 1rem;
+}
+
+.AboutMe-details{
+    margin: 0.5rem 1rem;
+}
+
+.AboutMe-intro > a{
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 1rem 2rem;
+    margin: 1.3rem 1rem;
+    background-color: brown;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
