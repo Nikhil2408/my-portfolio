@@ -8,12 +8,12 @@ function Certification(){
         <div className="Certification">
             <h2 className="Certification-header">Certification</h2>
             <div className="Certification-container">
-                <div>
-                    <h3>I am AWS Solution Arhictect Associate Certified. Learned Couple of services like EC2, S3.</h3>
-                    <p>Validity: </p>
+                <div className="Certification-details">
+                    <h3>Write your description</h3>
+                    <p><strong>Validity:</strong> October 1st 2021 - October 1st 2024</p>
                     <a href="#">Download Certificate</a>
                 </div>
-                <div>
+                <div className="Certification-badge">
                     <img src={certi_badge} />
                 </div>
             </div>

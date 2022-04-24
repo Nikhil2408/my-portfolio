@@ -3,14 +3,14 @@
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px dotted var(--text-primary-color);
-    height: 10vh;
 }
 
 .NavBar-header{
     font-family: 'Water Brush', cursive;
-    padding: 0.2rem 0rem 0.2rem 1rem;
+    padding: 0.5rem 0rem 0.5rem 1rem;
     font-size: 3rem;
     color: var(--text-primary-color);
+    margin-left: 1rem;
 }
 
 .NavBar-list{
@@ -29,9 +29,38 @@
 .NavBar-list > li > a{
     text-decoration: none;
     color: var(--text-primary-color);
-    padding: 1.7rem 0.8rem;
+    padding: 2rem 0.8rem;
 }
 
 .NavBar-list > li > a:hover{
     background-color: var(--primary-color);
+}
+
+
+@media(max-width: 700px){
+    .NavBar{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .NavBar-header{
+        font-size: 4rem;
+        padding: 0px;
+    }
+
+    .NavBar-list{
+        flex-direction: column;
+        margin-bottom: 0.5rem;
+    }
+
+    .NavBar-list > li{
+        margin: 0.3rem 0.3rem;
+        border-bottom: 1px solid grey;
+    }
+
+    .NavBar-list > li > a{
+        padding: 0.3rem 1rem;
+    }
+
 }

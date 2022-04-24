@@ -2,16 +2,12 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 90vh;
-}
-
-.AboutMe-avatarC{
-    margin-left: 7rem;
 }
 
 .AboutMe-avatarC > img{
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
+    margin: 1rem;
 }
 
 .AboutMe-intro{
@@ -23,14 +19,15 @@
 }
 
 .AboutMe-name{
-    margin: 1rem;
+    margin: 1rem 0rem 0.5rem 0rem;
 }
 
 .AboutMe-details{
-    margin: 0.5rem 1rem;
+    margin: 0.5rem 1.5rem;
+    text-align: justify;
 }
 
-.AboutMe-intro > a{
+.AboutMe-intro > a {
     text-decoration: none;
     border: 2px solid var(--text-primary-color);
     padding: 1rem 2rem;
@@ -39,4 +36,27 @@
     color: var(--text-primary-color);
     border-radius: 10px;
     cursor: pointer;
+}
+
+.AboutMe-intro > a:hover{
+    background-color: rgb(90, 10, 10);
+}
+
+
+
+@media (max-width: 700px) {
+	.AboutMe {
+		flex-direction: column;
+        align-items: center;
+	}
+
+    .AboutMe-avatarC > img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .AboutMe-intro{
+        width: 400px;
+    }
+
 }
