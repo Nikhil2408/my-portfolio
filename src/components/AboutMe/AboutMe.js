@@ -5,8 +5,8 @@ import avatar from "../../images/undraw_feeling_proud_qne1.svg";
 
 function AboutMe(){
     return (
-        <div class="AboutMe">
-            <div class="AboutMe-avatarC">
+        <div className="AboutMe">
+            <div className="AboutMe-avatarC">
                 <img src={avatar}/>
             </div>
             <div className="AboutMe-intro">

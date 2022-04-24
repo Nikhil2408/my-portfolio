@@ -1,6 +1,20 @@
 .Education{
     display: flex;
     flex-direction: column;
-    margin: 2rem 1rem;
 }
+
+.Education > h2{
+    font-size: 2rem;
+    margin: 2rem 1.5rem 1.5rem 1.5rem;
+}
+
+.Edu{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 1.5rem;
+    background-color: var(--text-secondary-color);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
 

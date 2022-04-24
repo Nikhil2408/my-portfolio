@@ -2,14 +2,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px dotted white;
+    border-bottom: 1px dotted var(--text-primary-color);
+    height: 10vh;
 }
 
 .NavBar-header{
     font-family: 'Water Brush', cursive;
     padding: 0.2rem 0rem 0.2rem 1rem;
     font-size: 3rem;
-    color: white;
+    color: var(--text-primary-color);
 }
 
 .NavBar-list{
@@ -27,10 +28,10 @@
 
 .NavBar-list > li > a{
     text-decoration: none;
-    color: white;
+    color: var(--text-primary-color);
     padding: 1.7rem 0.8rem;
 }
 
 .NavBar-list > li > a:hover{
-    background-color: brown;
+    background-color: var(--primary-color);
 }

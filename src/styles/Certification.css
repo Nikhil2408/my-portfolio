@@ -1,0 +1,15 @@
+.Certification{
+    display: flex;
+    flex-direction: column;
+}
+
+.Certification-header{
+    font-size: 2rem;
+    margin: 2rem 1.5rem 1.5rem 1.5rem;
+}
+
+.Certification-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

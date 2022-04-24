@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    height: 90vh;
 }
 
 .AboutMe-avatarC{
@@ -18,7 +19,7 @@
     flex-direction: column;
     align-items: center;
     width: 700px;
-    color: white;
+    color: var(--text-primary-color);
 }
 
 .AboutMe-name{
@@ -31,11 +32,11 @@
 
 .AboutMe-intro > a{
     text-decoration: none;
-    border: 2px solid white;
+    border: 2px solid var(--text-primary-color);
     padding: 1rem 2rem;
     margin: 1.3rem 1rem;
     background-color: brown;
-    color: white;
+    color: var(--text-primary-color);
     border-radius: 10px;
     cursor: pointer;
 }
