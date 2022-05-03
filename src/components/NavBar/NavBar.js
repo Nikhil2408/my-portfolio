@@ -4,10 +4,10 @@ import "../../styles/NavBar.css";
 
 function NavBar(){
     return (
-        <nav className="NavBar">
+        <nav id="NavBar" className="NavBar">
             <h2 className = "NavBar-header">NB</h2>
             <ul className = "NavBar-list">
-                <li><a href="#">Home</a></li>
+                <li><a href="#NavBar">Home</a></li>
                 <li><a href="#Experience">Experience</a></li>
                 <li><a href="#Certification">Certification</a></li>
                 <li><a href="#Projects">Projects</a></li>

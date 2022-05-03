@@ -17,7 +17,7 @@ function AboutMe(){
                 <div className="AboutMe-gesture">Hi There, <img src={hello} alt="hello" /></div>
                 <div className="AboutMe-name">I am Nikhil Bansal</div>
                 <div className="AboutMe-details">I am a software engineer currently working in Accenture. I did my B.Tech in Computer Science and got graduated in 2020.</div>
-                <a href="#" rel="noreferrer">Resume</a>
+                <a href="https://www.google.com" target="_blank" rel="noreferrer">Resume</a>
                 <div className="ConnectWithMe">
                     <div>Connect With Me!!</div>
                     <ConnectWithMe />
