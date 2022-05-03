@@ -8,9 +8,9 @@ function NavBar(){
             <h2 className = "NavBar-header">NB</h2>
             <ul className = "NavBar-list">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Experience</a></li>
-                <li><a href="#">Certification</a></li>
-                <li><a href="#">Projects</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Certification">Certification</a></li>
+                <li><a href="#Projects">Projects</a></li>
             </ul>
         </nav>
     )

@@ -14,14 +14,14 @@ function Skills(){
             <h2 className="Skills-header">Skills and Technologies</h2>
             <div className="Skills-container">
                 <div className="firstSkillSet">
-                    <div class="Skills-skill"><img src={html5} />HTML5</div>
-                    <div class="Skills-skill"><img src={css3} />CSS3</div>
-                    <div class="Skills-skill"><img src={javascript} />JavaScript</div>
+                    <div class="Skills-skill"><img src={html5} alt="html5" />HTML5</div>
+                    <div class="Skills-skill"><img src={css3} alt="css3" />CSS3</div>
+                    <div class="Skills-skill"><img src={javascript} alt="javascript" />JavaScript</div>
                 </div>
                 <div className="secondSkillSet">
-                    <div class="Skills-skill"><i class="fa-brands fa-react" />ReactJS</div>
-                    <div class="Skills-skill"><img src={aws} />AWS Cloud</div>
-                    <div class="Skills-skill"><img src={java} />Java</div>
+                    <div class="Skills-skill"><i class="fa-brands fa-react" alt="reactjs" />ReactJS</div>
+                    <div class="Skills-skill"><img src={aws} alt="awscloud" />AWS Cloud</div>
+                    <div class="Skills-skill"><img src={java} alt="java" />Java</div>
                 </div>
             </div>
         </div>

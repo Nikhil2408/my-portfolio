@@ -9,13 +9,16 @@ function Project(props){
             <div className="Project-description">{props.project.description}</div>
             <div className="Project-techStack"> Tech Stack:  
                 {
-                    props.project.techStack.map(tech => {
-                        return ` ${tech}, `
+                    props.project.techStack.map((tech, index) => {
+                        if(index === props.length - 1){
+                            return ` ${tech} `
+                        }
+                        return ` ${tech} | `
                     })
                 }
             </div>
-            <a href="#">LIVE</a>
-            <a href="#">Source Code</a>
+            <a href={props.project.liveLink} target="_blank">LIVE</a>
+            <a href={props.project.sourceCodeLink} target="_blank">Source Code</a>
         </div>
     )
 }
