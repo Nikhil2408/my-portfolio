@@ -1,0 +1,36 @@
+.Project{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    border: 2px solid white;
+    width: 45%;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 3px 3px 10px #a52a2a;
+}
+
+.Project-Name{
+    font-size: 2rem;
+    margin: 0.8rem 0rem;
+    border-bottom: 1px dotted grey;
+}
+
+.Project-description{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.Project-techStack{
+    margin: 0.8rem 0rem;
+}
+
+.Project > a{
+    text-decoration: none;
+    border: 2px solid var(--text-primary-color);
+    padding: 0.5rem 1.3rem;
+    width: 10rem;
+    text-align: center;
+    margin: 0.3rem 0rem;
+    color: var(--text-primary-color);
+    cursor: pointer;
+}

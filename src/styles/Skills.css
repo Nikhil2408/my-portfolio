@@ -18,6 +18,7 @@
 .firstSkillSet, .secondSkillSet{
     display: flex;
     flex-direction: column;
+
 }
 
 .Skills-skill{
@@ -29,15 +30,27 @@
     cursor: pointer;
     width: 500px;
     flex-shrink: 1;
+    display: flex;
+    align-items: center;
 }
 
-
-i{
-    padding: 0rem 0.5rem;
-    color: rgb(14, 243, 14);
-    font-weight: bold;
+.firstSkillSet > div > img{
+    height: 2rem;
+    width: 2rem;
+    margin-right: 0.3rem;
 }
 
+.secondSkillSet > div > img{
+    height: 2rem;
+    width: 2rem;
+    margin-right: 0.3rem;
+}
+
+.Skills-skill > i{
+    font-size: 1.2rem;
+    color: cyan;
+    margin: 0rem 0.3rem;
+}
 
 .Skills-skill:hover{
     background-color: var(--primary-color);

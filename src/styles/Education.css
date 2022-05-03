@@ -6,14 +6,14 @@
 .Education > h2{
     font-size: 2rem;
     margin: 2rem 1.5rem 1.5rem 1.5rem;
-    color: var(--text-primary-color)
 }
 
 .Edu{
     display: flex;
     flex-direction: column;
     margin: 1rem 1.5rem;
-    background-color: coral;
+    background-color: rgb(179, 168, 168);
+    box-shadow: inset 100px 100px 120px #282c34;
     color: var(--text-primary-color);
     padding: 1rem;
     border-radius: 10px;

@@ -6,7 +6,6 @@
 .Certification-header{
     font-size: 2rem;
     margin: 2rem 1.5rem 1.5rem 1.5rem;
-    color: var(--text-primary-color);
 }
 
 .Certification-container{
@@ -19,11 +18,18 @@
     width: 700px;
     padding: 1.2rem 2rem;
     text-align: justify;
-    color: var(--text-primary-color);
 }
 
-.Certification-details > h3, p {
-    margin-bottom: 1rem;
+.Certification-details > div{
+    font-size: 1.2rem;
+}
+
+.Certification-details > div, p {
+    margin-bottom: 1.2rem;
+}
+
+.Certification-details > p > span{
+    font-weight: bold;
 }
 
 .Certification-details > a{
@@ -35,6 +41,7 @@
     color: var(--text-primary-color);
     border-radius: 10px;
     cursor: pointer;
+    margin: 0.5rem 1rem 0.5rem 0rem;
 }
 
 .Certification-details > a:hover{
