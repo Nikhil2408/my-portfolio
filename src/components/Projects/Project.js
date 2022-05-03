@@ -17,8 +17,8 @@ function Project(props){
                     })
                 }
             </div>
-            <a href={props.project.liveLink} target="_blank">LIVE</a>
-            <a href={props.project.sourceCodeLink} target="_blank">Source Code</a>
+            <a href={props.project.liveLink} target="_blank" rel="noreferrer">LIVE</a>
+            <a href={props.project.sourceCodeLink} target="_blank" rel="noreferrer">Source Code</a>
         </div>
     )
 }
