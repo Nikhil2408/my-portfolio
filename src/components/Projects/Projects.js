@@ -16,7 +16,7 @@ function Projects(){
         },
         {
             projectName: "Movies Comparison",
-            description: "Movies Fight is a web-app which displays the details about the the movie selected, by fetching the data from an API call. It can also be used to compare the two movies and find out which got the highest rating and revenue.",
+            description: "Movies Comparion is a web-app which displays the details about the the movie selected, by fetching the data from an API call. It can also be used to compare the two movies and find out which got the highest rating and revenue.",
             techStack: ["HTML5", "CSS3", "JavaScript"],
             liveLink: "https://moviescomparison.netlify.app/",
             sourceCodeLink: "https://github.com/Nikhil2408/Movies-Fight" 
