@@ -1,6 +1,7 @@
 .Project{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     margin: 1rem;
     border: 2px solid white;
     width: 45%;
@@ -22,15 +23,47 @@
 
 .Project-techStack{
     margin: 1rem 0rem;
+    color: rgb(216, 166, 166);
+    font-weight: bold;
 }
 
-.Project > a{
+
+.Project-techStack > span{
+    color: white;
+    font-weight: 100;
+}
+
+.Project > .Links > a{
+    display: inline-block;
     text-decoration: none;
     border: 2px solid var(--text-primary-color);
-    padding: 0.5rem 1.3rem;
+    padding: 0.4rem;
     width: 10rem;
     text-align: center;
-    margin: 0.3rem 0rem;
+    margin: 0.3rem 0.5rem 0.5rem 0rem;
     color: var(--text-primary-color);
     cursor: pointer;
+    border-radius: 10px;
+}
+
+.primary{
+    background-color: rgb(243, 54, 54);
+}
+
+.primary:hover{
+    background-color: rgb(207, 28, 28);
+}
+
+.secondary{
+    background-color: rgb(32, 32, 250);
+}
+
+.secondary:hover{
+    background-color: rgb(17, 17, 182);
+}
+
+@media (max-width: 700px) {
+    .Project{
+        width: 90%;
+    }
 }

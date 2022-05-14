@@ -6,11 +6,15 @@ function Experience(){
     return (
         <div id="Experience" className="Experience">
             <h2 className="Experience-header">Experience</h2>
-            <div className="Edu">
+            <div className="Exp-container">
                 <h2>Accenture</h2>
-                <p></p>
-                <p></p>
-                <p></p>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
             </div>
         </div>
     )

@@ -1,0 +1,19 @@
+.Experience{
+    display: flex;
+    flex-direction: column;
+}
+
+.Experience-header{
+    font-size: 2rem;
+    margin: 2rem 1.5rem 1.5rem 1.5rem;
+}
+
+.Exp-container{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 1.5rem;
+    background-color: #a52a2a;
+    color: var(--text-primary-color);
+    padding: 1rem 3rem;
+    border-radius: 10px;
+}
