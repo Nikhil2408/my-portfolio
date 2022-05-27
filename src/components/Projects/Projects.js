@@ -48,7 +48,10 @@ function Projects(){
             techStack: ["HTML5", "CSS3", "JavaScript"],
             liveLink: "https://currency-converter-webapp.netlify.app/",
             sourceCodeLink: "https://github.com/Nikhil2408/Web-Dev-Practice-Projects/tree/main/CurrencyConverter"
-        },
+        }
+    ];
+
+    const extras = [
         {
             projectName: "Lights Out Game",
             description: "A ReactJS game where the player has to turn off all the lights on the board to win the game. The user can toggle the light of a particular box by clicking on it. But the catch is that the light of the boxes surrounding that box also gets toggle.",
@@ -63,7 +66,7 @@ function Projects(){
             liveLink: "https://color-box-maker1.netlify.app/",
             sourceCodeLink: "https://github.com/Nikhil2408/color-box-maker"
         }
-    ];
+    ]
 
     const [showMore, setShowMore] = useState(false);
 
@@ -76,11 +79,14 @@ function Projects(){
             <h2 className="Projects-header">Projects</h2>
             <div class="Projects-container">
                 {
-                    projects.map((project, index) => {
-                        if(index < 6)
-                            return <Project project = {project} length = {project.techStack.length}/>
-                        else if(index > 5 && showMore)
-                            return <Project project = {project} length = {project.techStack.length}/>
+                    projects.map(project => {
+                        return <Project project = {project} length = {project.techStack.length}/>
+                    })
+                }
+                {
+                    showMore &&
+                    extras.map(project => {
+                        return <Project project = {project} length = {project.techStack.length}/>
                     })
                 }
             </div>
