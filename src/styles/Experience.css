@@ -30,13 +30,13 @@
     display: inline-block;
 }
 
-.something{
+.Experience-work{
     padding: 0rem 0.8rem 0rem 1.2rem;
     margin-right: 0.4rem;
 }
 
 
-.something > ul{
-    line-height: 1.8rem;
+.Experience-work > ul{
+    line-height: 1.6rem;
     text-align: justify;
 }

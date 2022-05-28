@@ -14,7 +14,7 @@ function Experience(){
             <div className="Experience-container">
                 <h3>Software Engineer</h3>
                 <p>Dec 2020 - May 2022</p>
-                <div className="something">
+                <div className="Experience-work">
                     <ul>
                         <li>Wrote multiple complex queries in Oracle database to deliver client reports</li>
                         <li>Working on setting up API endpoint on AWS API Gateway and authorizing the API call with Cognito Authorizer</li>
