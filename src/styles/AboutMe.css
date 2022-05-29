@@ -54,6 +54,7 @@
 	.AboutMe {
 		flex-direction: column;
         align-items: center;
+        margin-top: 0rem;
 	}
 
     .AboutMe-avatarC > img{

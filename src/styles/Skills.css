@@ -12,7 +12,6 @@
 .Skills-container{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .firstSkillSet, .secondSkillSet{
@@ -61,12 +60,12 @@
 @media(max-width: 700px){
     .Skills-container{
         flex-direction: column;
+        align-items: center;
     }
 
     .firstSkillSet, .secondSkillSet{
         width: 90%;
     }
-
     
     .Skills-skill{
         margin: 1.5rem 1rem;
