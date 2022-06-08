@@ -13,7 +13,7 @@ function Experience(){
                 </div>
             <div className="Experience-container">
                 <h3>Software Engineer</h3>
-                <p>Dec 2020 - Present</p>
+                <p>Sept 2020 - Present</p>
                 <div className="Experience-work">
                     <ul>
                         <li>Wrote multiple complex queries in Oracle database to deliver client reports</li>
