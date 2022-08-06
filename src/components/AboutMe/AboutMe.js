@@ -18,7 +18,7 @@ function AboutMe(){
                 <div className="AboutMe-gesture">Hi There 👋</div>
                 <div className="AboutMe-name">I am Nikhil Bansal</div>
                 <div className="AboutMe-details">A passionate frontend web developer. Currently, working as a software engineer in Accenture. I have worked on frontend technologies like JavaScript and ReactJS and backend technology like Java. I have some experience in AWS as well.</div>
-                <a href="https://drive.google.com/file/d/1XeEOJ9myJ7ae4lqQE0K_7J8-zNENTYls/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
+                <a href="https://drive.google.com/file/d/12mbh4TCONmgBmVXvm3n7NiskZHocPvxo/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
                 <div className="ConnectWithMe">
                     <div>Connect With Me!!</div>
                     <ConnectWithMe />

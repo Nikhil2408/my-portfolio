@@ -7,6 +7,13 @@ function Projects(){
 
     const projects = [
         {
+            projectName: "Maths Quiz",
+            description: "A Maths Quiz App which shows 2 quizzes simultaneously. The user can choose the range of number, operator which he/she wants to practice and the total number of questions. Each Quiz has also been implemented with a 20sec timer.",
+            techStack: ["ReactJS", "CSS3"],
+            liveLink: "https://maths-quiz-arithmetic.netlify.app/",
+            sourceCodeLink: "https://github.com/Nikhil2408/maths-quiz"
+        },
+        {
             projectName: "Birthdays Tracker",
             description: "An app which helps me to track birthdays of my closed ones. It shows the upcoming birthdays for the current month and has the feature to add new friends birthdays as well.",
             techStack: ["ReactJS", "CSS3", "firebase"],
