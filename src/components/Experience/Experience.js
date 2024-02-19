@@ -33,7 +33,6 @@ function Experience(){
                         <li>Implemented new gender options within the create/update profile flow for targeted countries, integrating UI field validations to ensure data accuracy and compliance.</li>
                         <li>Wrote multiple complex queries in Oracle to deliver client reports.</li>
                         <li>Prepared a complete new response structure to send the supported genders to mobile team for specific countries and restrict them for all the other countries.</li>
-                        <li>Currently working on building new structure of the response to support new Genders and restrict them for few countries</li>
                         <li>Worked with tax team to make changes in the exisiting API call to calculate the tax on the new order items.</li>
                         <li>Played a crucial role in identifying and resolving critical production bugs, minimizing impact on real-time users.</li>
                     </ul>
