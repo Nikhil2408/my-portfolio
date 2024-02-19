@@ -11,7 +11,7 @@ function NavBar(){
                 <li><a href="#home">Home</a></li>
                 <li><a href="#Certification">Certification</a></li>
                 <li><a href="#Experience">Experience</a></li>
-                <li><a href="#Projects">Projects</a></li>
+                {/* <li><a href="#Projects">Projects</a></li> */}
             </ul>
         </nav>
     )

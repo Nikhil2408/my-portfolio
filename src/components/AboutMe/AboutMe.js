@@ -17,8 +17,8 @@ function AboutMe(){
                 {/* <div className="AboutMe-gesture">Hi There, <img src={hello} alt="hello" /></div> */}
                 <div className="AboutMe-gesture">Hi There 👋</div>
                 <div className="AboutMe-name">I am Nikhil Bansal</div>
-                <div className="AboutMe-details">A passionate frontend web developer. Currently, working as a software engineer in Accenture. I have worked on frontend technologies like JavaScript and ReactJS and backend technology like Java. I have some experience in AWS as well.</div>
-                <a href="https://drive.google.com/file/d/12mbh4TCONmgBmVXvm3n7NiskZHocPvxo/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
+                <div className="AboutMe-details">A passionate frontend web developer. Currently, working as a frontend software developer in Accenture. I have been working on technologies like JavaScript, ReactJS, Node.js and MongoDB.</div>
+                <a href="https://drive.google.com/file/d/1CeTqGsJY7XioFWFwl1-MvuStfreoomSf/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
                 <div className="ConnectWithMe">
                     <div>Connect With Me!!</div>
                     <ConnectWithMe />
