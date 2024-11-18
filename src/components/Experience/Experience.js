@@ -22,32 +22,27 @@ function Experience() {
             <li>
               Automated the phone interview process, eliminating the need for
               recruiters to conduct calls. Developed a system where candidates
-              answer questions independently, allowing for automated evaluation
-              and candidate progression based on their responses. This
-              innovation streamlined the recruitment workflow by efficiently
-              filtering candidates for further interview stages.
-            </li>
-            <li>
-              Implemented automated phone screen questions with country-specific
-              configurations, ensuring correct behavior of each question based
-              on the candidate’s location. This enhancement improved the
-              accuracy and relevance of the screening process across different
-              regions.
+              answer questions independently, allowing for automated evaluation.
+              This innovation streamlined the recruitment workflow by helping
+              team to save over 4000 manual hours and candidate portal adoption
+              rate improved from 28% to 54.2%
             </li>
             <li>
               Implemented configuration-driven code to dynamically adjust hiring
-              portal form fields based on user country, enhancing code
-              maintainability and scalability.
+              portal form fields based on user country, improving scalability by
+              30%, ensuring faster roll-outs of region-specific features.
             </li>
             <li>
               Successfully implemented a virtual keyboard for Hebrew language
-              text fields for Israel country, prioritizing accessibility while
-              developing the feature from scratch.
+              text fields for Israel, prioritizing accessibility while
+              developing the feature from scratch. This increased usability for
+              Israeli candidates by 25%, as reported through user feedback and
+              reduced input-related errors.
             </li>
             <li>
               Developed reusable UI components and widgets, which helped us in
               ensuring consistency in design and functionality in multiple
-              assets.
+              assets. This reduced development time for similar features by 40%
             </li>
             <li>
               Managed post-deployment bugs to mitigate impact on candidate
@@ -60,7 +55,9 @@ function Experience() {
             </li>
             <li>
               Regularly showcased project milestones and product features to
-              clients, ensuring a clear understanding of the technical aspects.
+              clients, resulting in enhanced trust and stronger collaboration
+              between the technical team and stakeholders. This proactive
+              communication ensured a clear understanding of technical aspects.
             </li>
           </ul>
         </div>

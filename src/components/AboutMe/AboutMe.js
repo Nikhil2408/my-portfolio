@@ -18,7 +18,7 @@ function AboutMe() {
         <div className="AboutMe-gesture">Hi There 👋</div>
         <div className="AboutMe-name">I am Nikhil Bansal</div>
         <div className="AboutMe-details">
-          Front-end developer with expertise in creating dynamic web
+          Senior Front-end developer with expertise in creating dynamic web
           applications. Skilled in JavaScript, ReactJS, Node.js, and MongoDB to
           deliver high-quality user experiences.
         </div>
