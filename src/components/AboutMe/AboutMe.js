@@ -23,7 +23,7 @@ function AboutMe() {
           deliver high-quality user experiences.
         </div>
         <a
-          href="https://drive.google.com/file/d/1GpwKwoUcQEqmEpfSCtLA_sELctSfntGx/view?usp=sharing"
+          href="https://drive.google.com/file/d/1iRy_XI2kWnkQ_I6yxmA7hPHZ4lLc5-L8/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
