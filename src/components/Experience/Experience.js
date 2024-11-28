@@ -20,17 +20,13 @@ function Experience() {
         <div className="Experience-work">
           <ul>
             <li>
-              Automated the phone interview process, eliminating the need for
-              recruiters to conduct calls. Developed a system where candidates
-              answer questions independently, allowing for automated evaluation.
-              This innovation streamlined the recruitment workflow by helping
-              team to save over 4000 manual hours and candidate portal adoption
-              rate improved from 28% to 54.2%
+              Automated the phone interview process, saving 4000+ manual hours
+              and improving candidate portal adoption from 28% to 54.2%.
             </li>
             <li>
-              Implemented configuration-driven code to dynamically adjust hiring
-              portal form fields based on user country, improving scalability by
-              30%, ensuring faster roll-outs of region-specific features.
+              Built configuration-driven code to adjust form fields by user
+              country, boosting scalability and accelerating region-specific
+              feature rollouts.
             </li>
             <li>
               Successfully implemented a virtual keyboard for Hebrew language
