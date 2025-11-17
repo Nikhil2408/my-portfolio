@@ -24,36 +24,31 @@ function Experience() {
               and improving candidate portal adoption from 28% to 54.2%.
             </li>
             <li>
+              Led development of the Job Templates and Requisitions modules,
+              enabling recruiters to create job opportunities and improving
+              overall hiring process efficiency
+            </li>
+            <li>
               Built configuration-driven code to adjust form fields by user
               country, boosting scalability and accelerating region-specific
               feature rollouts.
             </li>
             <li>
-              Successfully implemented a virtual keyboard for Hebrew language
-              text fields for Israel, prioritizing accessibility while
-              developing the feature from scratch. This increased usability for
-              Israeli candidates by 25%, as reported through user feedback and
-              reduced input-related errors.
-            </li>
-            <li>
               Developed reusable UI components and widgets, which helped us in
               ensuring consistency in design and functionality in multiple
-              assets. This reduced development time for similar features by 40%
+              assets. This reduced development time for similar features by 30%
             </li>
             <li>
               Managed post-deployment bugs to mitigate impact on candidate
               hiring processes.
             </li>
             <li>
-              Spearheaded the adoption of Test-Driven Development (TDD)
-              practices using the Enzyme testing library, resulting in a
-              significant reduction in post-deployment bugs.
+              Introduced TDD practices with React Testing Library, leading to a
+              significant reduction in post-deployment issues.
             </li>
             <li>
-              Regularly showcased project milestones and product features to
-              clients, resulting in enhanced trust and stronger collaboration
-              between the technical team and stakeholders. This proactive
-              communication ensured a clear understanding of technical aspects.
+              Presented project updates and features to clients, fostering
+              stronger collaboration and trust with stakeholders
             </li>
           </ul>
         </div>
@@ -63,31 +58,23 @@ function Experience() {
         <div className="Experience-work">
           <ul>
             <li>
-              Implemented new gender options within the create/update profile
-              flow for targeted countries, integrating UI field validations to
-              ensure data accuracy and compliance.
+              Wrote complex Oracle queries to generate detailed client reports.
             </li>
             <li>
-              Wrote multiple complex queries in Oracle to deliver client
-              reports.
+              Designed a response structure to provide supported gender data to
+              mobile teams for specific regions while restricting others.
             </li>
             <li>
-              Prepared a complete new response structure to send the supported
-              genders to mobile team for specific countries and restrict them
-              for all the other countries.
+              Collaborated with the tax team to update API calls for accurate
+              tax calculations on new order items.
             </li>
             <li>
-              Worked with tax team to make changes in the exisiting API call to
-              calculate the tax on the new order items.
+              Configured and deployed API endpoints on AWS API Gateway with
+              Cognito Authorizer, ensuring a seamless production rollout.
             </li>
             <li>
-              Responsible for setting up API endpoint on AWS API Gateway and
-              authorizing the API call with Cognito Authorizer and promoting it
-              to production.
-            </li>
-            <li>
-              Played a crucial role in identifying and resolving critical
-              production bugs, minimizing impact on real-time users.
+              Identified and resolved critical production bugs, reducing
+              downtime by 30%.
             </li>
           </ul>
         </div>

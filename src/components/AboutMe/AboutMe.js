@@ -18,12 +18,14 @@ function AboutMe() {
         <div className="AboutMe-gesture">Hi There 👋</div>
         <div className="AboutMe-name">I am Nikhil Bansal</div>
         <div className="AboutMe-details">
-          Senior Front-end developer with expertise in creating dynamic web
-          applications. Skilled in JavaScript, ReactJS, Node.js, and MongoDB to
-          deliver high-quality user experiences.
+          React.js Developer with 5 years of hands-on experience in React,
+          TypeScript, and modern web architecture. I build fast, scalable UI
+          systems, optimize performance, and ship features that directly impact
+          business metrics. Comfortable owning features end-to-end — from design
+          discussions to production testing.
         </div>
         <a
-          href="https://drive.google.com/file/d/1bX2hFidgtfKu9F_oTkZG7sXoHHNQeokF/view?usp=sharing"
+          href="https://drive.google.com/file/d/1MwxNSQ4Y3uET5ITOYpEQHcm7cYIw5p59/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >

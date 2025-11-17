@@ -4,7 +4,6 @@ import html5 from "../../images/html5.svg";
 import css3 from "../../images/css3.svg";
 import javascript from "../../images/javascript.svg";
 import aws from "../../images/aws.svg";
-import oracleDB from "../../images/oracle-db.png";
 import mongodb from "../../images/mongodb.svg";
 import nodejs from "../../images/nodejs.png";
 import redux from "../../images/redux.png";
@@ -13,7 +12,38 @@ import git from "../../images/git.png";
 import reactQuery from "../../images/react-query.png";
 import reactRouterDOM from "../../images/react-router-dom.png";
 import tailwind from "../../images/tailwind.png";
-import enzyme from "../../images/enzyme.jpg";
+import reacttestinglibrary from "../../images/react_testing_library.jpg";
+import reactjs from "../../images/react.png";
+import typescript from "../../images/typescript.png";
+
+const firstSkillSet = [
+  { label: "ReactJS", icon: reactjs, imageAlt: "React JS Logo" },
+  { label: "JavaScript", icon: javascript, imageAlt: "JavaScript Logo" },
+  { label: "TypeScript", icon: typescript, imageAlt: "TypeScript Logo" },
+  { label: "Redux", icon: redux, imageAlt: "Redux Logo" },
+  {
+    label: "React Router DOM",
+    icon: reactRouterDOM,
+    imageAlt: "React Router DOM Logo",
+  },
+  { label: "React Query", icon: reactQuery, imageAlt: "React Query Logo" },
+  {
+    label: "React Testing Library",
+    icon: reacttestinglibrary,
+    imageAlt: "Enzyme Logo",
+  },
+  { label: "Tailwind CSS", icon: tailwind, imageAlt: "Tailwind CSS Logo" },
+];
+
+const secondSkillSet = [
+  { label: "Node JS", icon: nodejs, imageAlt: "Node.js Logo" },
+  { label: "Express.js", icon: express, imageAlt: "Express.js Logo" },
+  { label: "MongoDB", icon: mongodb, imageAlt: "MongoDB Logo" },
+  { label: "HTML5", icon: html5, imageAlt: "HTML5 Logo" },
+  { label: "CSS3", icon: css3, imageAlt: "CSS3 Logo" },
+  { label: "Git", icon: git, imageAlt: "Git Logo" },
+  { label: "AWS Cloud", icon: aws, imageAlt: "AWS Cloud Logo" },
+];
 
 function Skills() {
   return (
@@ -21,68 +51,24 @@ function Skills() {
       <h2 className="Skills-header">Skills and Technologies</h2>
       <div className="Skills-container">
         <div className="firstSkillSet">
-          <div class="Skills-skill">
-            <i class="fa-brands fa-react" alt="reactjs" />
-            ReactJS
-          </div>
-          <div class="Skills-skill">
-            <img src={javascript} alt="javascript" />
-            JavaScript
-          </div>
-          <div class="Skills-skill">
-            <img src={redux} alt="redux" />
-            Redux
-          </div>
-          <div class="Skills-skill">
-            <img src={aws} alt="awscloud" />
-            AWS Cloud
-          </div>
-          <div class="Skills-skill">
-            <img src={oracleDB} alt="oracleDB" />
-            Oracle Database
-          </div>
-          <div class="Skills-skill">
-            <img src={css3} alt="css3" />
-            CSS3
-          </div>
-          <div class="Skills-skill">
-            <img src={nodejs} alt="nodejs" />
-            Node JS
-          </div>
-          <div class="Skills-skill">
-            <img src={express} alt="express" />
-            Express.js
-          </div>
+          {firstSkillSet.map((skill) => {
+            return (
+              <div className="Skills-skill">
+                <img src={skill.icon} alt={skill.imageAlt} />
+                {skill.label}
+              </div>
+            );
+          })}
         </div>
         <div className="secondSkillSet">
-          <div class="Skills-skill">
-            <img src={mongodb} alt="mongodb" />
-            Mongo DB
-          </div>
-          <div class="Skills-skill">
-            <img src={html5} alt="html5" />
-            HTML5
-          </div>
-          <div class="Skills-skill">
-            <img src={git} alt="git" />
-            Git
-          </div>
-          <div class="Skills-skill">
-            <img src={reactQuery} alt="React Query" />
-            React Query
-          </div>
-          <div class="Skills-skill">
-            <img src={reactRouterDOM} alt="React Router DOM" />
-            React Router DOM
-          </div>
-          <div class="Skills-skill">
-            <img src={tailwind} alt="Tailwind CSS" />
-            Tailwind CSS
-          </div>
-          <div class="Skills-skill">
-            <img src={enzyme} alt="Enzyme Testing Library" />
-            Enzyme Testing Library
-          </div>
+          {secondSkillSet.map((skill) => {
+            return (
+              <div className="Skills-skill">
+                <img src={skill.icon} alt={skill.imageAlt} />
+                {skill.label}
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>
