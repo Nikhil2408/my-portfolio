@@ -25,7 +25,7 @@ function AboutMe() {
           discussions to production testing.
         </div>
         <a
-          href="https://drive.google.com/file/d/12fIn5oNjl1JOKMDyvgEXdBVoEHxYl62k/view?usp=sharing"
+          href="https://drive.google.com/file/d/1En14RmqqdmxdgOnG07bzByIsqRu5bY3o/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
